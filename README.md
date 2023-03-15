@@ -1,12 +1,17 @@
 # Trove contributors
 
-Current version: [v0.0.0](https://github.com/GLAM-Workbench/trove-contributors/releases/tag/v0.0.0)
+Current version: [v1.0.0](https://github.com/GLAM-Workbench/trove-contributors/releases/tag/v1.0.0)
 
 Examples of exploring the different data sources that are aggregated into Trove from institutional contributors. For more information see the [Trove contributors](https://glam-workbench.net/trove-contributors/) section of the GLAM Workbench.
 
 ## Notebook topics
 
-* [Notebook title](notebook.ipynb) – this notebook does things
+* [Create a flat list of organisations contributing metadata to Trove](get_contributors.ipynb) – converts the nested data available from the `/contributor` endpoint into a single flat list of contributors
+* [Get the number of records from each contributor by zone and format](get_contributors_totals_zone_format.ipynb) – gets the number of records contributed by each organisation, aggregated by zone and format
+
+## Data
+
+See [this repository](https://github.com/wragge/trove-contributor-totals) for weekly harvests using code from the above notebooks.
 
 See the [GLAM Workbench for more details](https://glam-workbench.github.io/trove-contributors/).
 

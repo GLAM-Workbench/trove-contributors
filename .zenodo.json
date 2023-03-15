@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/trove-contributors/tree/v0.0.0",
+      "identifier": "https://github.com/GLAM-Workbench/trove-contributors/tree/v1.0.0",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,20 +22,20 @@
       "resource_type": "other"
     }
   ],
-  "version": "v0.0.0",
+  "version": "v1.0.0",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
     "Jupyter",
     "GLAM Workbench"
   ],
-  "publication_date": "2023-03-07",
+  "publication_date": "2023-03-15",
   "creators": [
     {
-        "name": "Sherratt, Tim",
-        "orcid": "0000-0001-7956-4498"
+      "name": "Sherratt, Tim",
+      "orcid": "0000-0001-7956-4498"
     }
-],
+  ],
   "access_right": "open",
-  "description": ""
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/trove-contributors/releases/tag/v1.0.0\">v1.0.0</a></p> <p>Examples of exploring the different data sources that are aggregated into Trove from institutional contributors. For more information see the <a href=\"https://glam-workbench.net/trove-contributors/\">Trove contributors</a> section of the GLAM Workbench.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <ul> <li>Create a flat list of organisations contributing metadata to Trove – converts the nested data available from the <code>/contributor</code> endpoint into a single flat list of contributors</li> <li>Get the number of records from each contributor by zone and format – gets the number of records contributed by each organisation, aggregated by zone and format</li> </ul> <h2 id=\"data\">Data</h2> <p>See <a href=\"https://github.com/wragge/trove-contributor-totals\">this repository</a> for weekly harvests using code from the above notebooks.</p> <p>See the <a href=\"https://glam-workbench.github.io/trove-contributors/\">GLAM Workbench for more details</a>.</p> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.3521724\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.github.io/\">GLAM Workbench</a>.</p>"
 }
